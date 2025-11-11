@@ -1,0 +1,81 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.1 Chrome/128.0.6613.186 Electron/32.2.6 Safari/537.36" version="25.0.1">
+  <diagram name="第 1 页" id="tc-zEsAYZmdD0D5aGUfi">
+    <mxGraphModel dx="1790" dy="1878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-519" y="-690" width="340" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="f_DSi7scMTbCO6Nz26rq-27" target="f_DSi7scMTbCO6Nz26rq-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-27" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-660" y="-600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="f_DSi7scMTbCO6Nz26rq-33" target="f_DSi7scMTbCO6Nz26rq-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HUpGQtmZpEDpRIKSj7vC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="f_DSi7scMTbCO6Nz26rq-33" target="f_DSi7scMTbCO6Nz26rq-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-424" y="-680" />
+              <mxPoint x="-252" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-33" value="gateway" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-479" y="-585" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="f_DSi7scMTbCO6Nz26rq-35" target="f_DSi7scMTbCO6Nz26rq-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-35" value="appctrl" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-287" y="-670" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-37" value="应用1" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-287" y="-610" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-39" value="应用2&lt;br&gt;&lt;br&gt;..." style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-287" y="-553" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="f_DSi7scMTbCO6Nz26rq-40" target="f_DSi7scMTbCO6Nz26rq-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="f_DSi7scMTbCO6Nz26rq-40" target="f_DSi7scMTbCO6Nz26rq-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="f_DSi7scMTbCO6Nz26rq-40" target="f_DSi7scMTbCO6Nz26rq-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-40" value="（内部rpc）pivate-request" style="rounded=0;whiteSpace=wrap;html=1;direction=south;textDirection=vertical-lr;" parent="1" vertex="1">
+          <mxGeometry x="-349" y="-670" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-42" value="应用n" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-287" y="-500" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-43" value="应用系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-519" y="-690" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f_DSi7scMTbCO6Nz26rq-52" value="app-api&lt;br&gt;（admin-api, fe-api）&lt;br&gt;&lt;br&gt;openapii" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-626" y="-585" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wGD3m_4sh0_wYN_JBw71-4" value="路由&lt;br&gt;鉴权&lt;br&gt;熔断&lt;br&gt;..." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-443" y="-540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wGD3m_4sh0_wYN_JBw71-5" value="路由分配示例：&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.应用路由（一级目录为应用或appctrl的模块）&lt;br&gt;/app1/auth/api/xxx&lt;div&gt;/app1/guest/api/xxx&lt;br&gt;&lt;br&gt;2.openapi路由（二级目录为应用或appctrl的模块）&lt;br&gt;/openapi/admin/xxx&lt;br&gt;/openapi/app/xxx&lt;br&gt;/openapi/app1/xxx&lt;br&gt;&lt;br&gt;3.前台路由如何分配？&lt;br&gt;前台用户中心再集成gw（2个gw）。&lt;br&gt;配置规则同上。&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-630" y="-380" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wGD3m_4sh0_wYN_JBw71-6" value="web服务器直连各个应用&lt;br&gt;（开发阶段）" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-179" y="-690" width="79" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wGD3m_4sh0_wYN_JBw71-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wGD3m_4sh0_wYN_JBw71-7" target="wGD3m_4sh0_wYN_JBw71-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wGD3m_4sh0_wYN_JBw71-7" value="开发者本地机器" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry y="-690" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

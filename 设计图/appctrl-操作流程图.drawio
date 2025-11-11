@@ -1,0 +1,197 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="第 1 页" id="6TvQmMrK189G3hKcKATH">
+    <mxGraphModel dx="1104" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-2" target="KZMTBjYNqFW8xVNqSlBw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-2" value="登录&lt;br&gt;开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-3" target="KZMTBjYNqFW8xVNqSlBw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-3" value="&lt;div&gt;验证账号密码&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/auth/api/login/check&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="62.5" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-7" target="KZMTBjYNqFW8xVNqSlBw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-7" value="获取短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/otp/sms&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(33, 33, 33); color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;type=login&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-9" target="KZMTBjYNqFW8xVNqSlBw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-9" value="验证短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/otp/sms/verify&lt;br/&gt;&lt;/span&gt;type=login" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-11" target="KZMTBjYNqFW8xVNqSlBw-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-11" target="KZMTBjYNqFW8xVNqSlBw-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-11" value="短信验证码登录&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/auth/api/login/smsOtp&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-15" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="490" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-17" target="KZMTBjYNqFW8xVNqSlBw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-17" target="KZMTBjYNqFW8xVNqSlBw-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-17" value="得到BearerToken&lt;br&gt;注意：&lt;br&gt;1.之后的鉴权接口，需要添加请求头Authorization，值为Bearer {token}。&lt;br&gt;&lt;div&gt;2.需要在过期前刷新token；&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/auth/api/token/refresh。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="360" width="215" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;返回示例&lt;/h1&gt;&lt;div style=&quot;color: rgb(248, 248, 242); background-color: rgb(33, 33, 33); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;code&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ok&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;data&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;token&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcHAtY3RybCIsImlhdCI6MTczNjkyODM2NSwiZXhwIjoxNzM2OTMxOTY1LCJuYmYiOjE3MzY5MjgzNjUsImp0aSI6ImFESk9EbHlndlFUYTdCZHkiLCJzdWIiOjEsInBydiI6ImRmODgzZGI5N2JkMDVlZjhmZjg1MDgyZDY4NmM0NWU4MzJlNTkzYTkiLCJ2ZXJzaW9uIjoidjEifQ.d7pccpWhhRxWr-nWAYa3OmUcS81Wmub8KvenlBmF7W4&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;expires_in&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;3600&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="190" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;鉴权请求头示例&lt;/h1&gt;&lt;p&gt;Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcHAtY3RybCIsImlhdCI6MTczNjkyODMxMiwiZXhwIjoxNzM2OTMxOTEyLCJuYmYiOjE3MzY5MjgzMTIsImp0aSI6IjFEZEVxZjl3OHpmSVNuMUwiLCJzdWIiOjEsInBydiI6ImRmODgzZGI5N2JkMDVlZjhmZjg1MDgyZDY4NmM0NWU4MzJlNTkzYTkiLCJ2ZXJzaW9uIjoidjEifQ.I9aa3eaRSmkQIpXgR0FMx6QTQo_VwyHj9ssXRjUcxaE&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="467" y="400" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-26" target="KZMTBjYNqFW8xVNqSlBw-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-26" value="激活账号&lt;br&gt;开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="585" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-27" target="KZMTBjYNqFW8xVNqSlBw-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-27" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;校验账号&lt;br/&gt;/api/account/verify&lt;br&gt;type=&lt;/span&gt;&lt;span style=&quot;color: rgb(136, 132, 111); background-color: rgb(33, 33, 33); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;activateAccount&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="580" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-31" target="KZMTBjYNqFW8xVNqSlBw-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-31" value="获取短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/otp/sms&lt;br&gt;&lt;/span&gt;type=&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(33, 33, 33); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;activateAccount&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="225" y="660" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-32" target="KZMTBjYNqFW8xVNqSlBw-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-32" value="验证短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/otp/sms/verify&lt;br&gt;&lt;/span&gt;type=&lt;span style=&quot;color: rgb(136, 132, 111); background-color: rgb(33, 33, 33); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;activateAccount&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap: nowrap; background-color: transparent;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E9%AA%8C%E8%AF%81%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%26lt%3Bbr%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(255%2C%20255%2C%20255)%3B%20font-family%3A%20Inter%2C%20system-ui%2C%20-apple-system%2C%20BlinkMacSystemFont%2C%20%26amp%3Bquot%3BSegoe%20UI%26amp%3Bquot%3B%2C%20Roboto%2C%20Oxygen%2C%20Ubuntu%2C%20Cantarell%2C%20%26amp%3Bquot%3BFira%20Sans%26amp%3Bquot%3B%2C%20%26amp%3Bquot%3BDroid%20Sans%26amp%3Bquot%3B%2C%20Helvetica%2C%20Arial%2C%20sans-serif%3B%20white-space-collapse%3A%20preserve%3B%20background-color%3A%20rgb(33%2C%2033%2C%2033)%3B%26quot%3B%26gt%3B%2Fapi%2Fotp%2Fsms%2Fverify%26lt%3Bbr%2F%26gt%3B%26lt%3B%2Fspan%26gt%3Btype%3Dlogin%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22200%22%20y%3D%22210%22%20width%3D%22140%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="225" y="740" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-34" target="KZMTBjYNqFW8xVNqSlBw-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-34" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/account/activate&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="820" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-36" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="880" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-41" target="KZMTBjYNqFW8xVNqSlBw-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-41" value="找回密码（重置密码）&lt;br&gt;开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="575" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-43" target="KZMTBjYNqFW8xVNqSlBw-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-43" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;校验账号&lt;br&gt;/api/account/verify&lt;br&gt;type=&lt;/span&gt;&lt;span style=&quot;color: rgb(136, 132, 111); background-color: rgb(33, 33, 33); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;resetPassword&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="570" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-45" target="KZMTBjYNqFW8xVNqSlBw-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-45" value="获取短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/otp/sms&lt;br&gt;&lt;/span&gt;type=&lt;span style=&quot;color: rgb(136, 132, 111); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; background-color: rgb(33, 33, 33);&quot;&gt;resetPassword&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="555" y="650" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-47" target="KZMTBjYNqFW8xVNqSlBw-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-47" value="验证短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/otp/sms/verify&lt;br&gt;&lt;/span&gt;type=&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap: nowrap; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(136, 132, 111); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;resetPassword&lt;/span&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E9%AA%8C%E8%AF%81%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%26lt%3Bbr%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(255%2C%20255%2C%20255)%3B%20font-family%3A%20Inter%2C%20system-ui%2C%20-apple-system%2C%20BlinkMacSystemFont%2C%20%26amp%3Bquot%3BSegoe%20UI%26amp%3Bquot%3B%2C%20Roboto%2C%20Oxygen%2C%20Ubuntu%2C%20Cantarell%2C%20%26amp%3Bquot%3BFira%20Sans%26amp%3Bquot%3B%2C%20%26amp%3Bquot%3BDroid%20Sans%26amp%3Bquot%3B%2C%20Helvetica%2C%20Arial%2C%20sans-serif%3B%20white-space-collapse%3A%20preserve%3B%20background-color%3A%20rgb(33%2C%2033%2C%2033)%3B%26quot%3B%26gt%3B%2Fapi%2Fotp%2Fsms%2Fverify%26lt%3Bbr%2F%26gt%3B%26lt%3B%2Fspan%26gt%3Btype%3Dlogin%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22200%22%20y%3D%22210%22%20width%3D%22140%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="555" y="730" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-49" target="KZMTBjYNqFW8xVNqSlBw-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-49" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/account/resetPassword&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="552.5" y="810" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-50" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="870" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-52" target="KZMTBjYNqFW8xVNqSlBw-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-52" value="个人中心修改密码&lt;br&gt;开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="950" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-56" target="KZMTBjYNqFW8xVNqSlBw-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-56" value="获取短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/uc/api/self/sms/otp&lt;br&gt;&lt;/span&gt;type=&lt;span style=&quot;color: rgb(136, 132, 111); background-color: rgb(33, 33, 33); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;ucUpdatePassword&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="1020" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-58" target="KZMTBjYNqFW8xVNqSlBw-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-58" value="验证短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/otp/sms/verify&lt;br&gt;&lt;/span&gt;type=&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap: nowrap; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(136, 132, 111); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;ucUpdatePassword&lt;/span&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E9%AA%8C%E8%AF%81%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%26lt%3Bbr%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(255%2C%20255%2C%20255)%3B%20font-family%3A%20Inter%2C%20system-ui%2C%20-apple-system%2C%20BlinkMacSystemFont%2C%20%26amp%3Bquot%3BSegoe%20UI%26amp%3Bquot%3B%2C%20Roboto%2C%20Oxygen%2C%20Ubuntu%2C%20Cantarell%2C%20%26amp%3Bquot%3BFira%20Sans%26amp%3Bquot%3B%2C%20%26amp%3Bquot%3BDroid%20Sans%26amp%3Bquot%3B%2C%20Helvetica%2C%20Arial%2C%20sans-serif%3B%20white-space-collapse%3A%20preserve%3B%20background-color%3A%20rgb(33%2C%2033%2C%2033)%3B%26quot%3B%26gt%3B%2Fapi%2Fotp%2Fsms%2Fverify%26lt%3Bbr%2F%26gt%3B%26lt%3B%2Fspan%26gt%3Btype%3Dlogin%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22200%22%20y%3D%22210%22%20width%3D%22140%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="1110" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-60" target="KZMTBjYNqFW8xVNqSlBw-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-60" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/uc/api/self/password/update&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1190" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-61" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="1250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-64" target="KZMTBjYNqFW8xVNqSlBw-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-64" value="个人中心更换手机号码&lt;br&gt;开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="950" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-66" target="KZMTBjYNqFW8xVNqSlBw-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-66" value="获取原手机短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/uc/api/self/sms/otp&lt;br&gt;&lt;/span&gt;type=&lt;span style=&quot;color: rgb(136, 132, 111); background-color: rgb(33, 33, 33); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;ucChangePhone4Old&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="1020" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-68" target="KZMTBjYNqFW8xVNqSlBw-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-68" value="验证原手机短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/otp/sms/verify&lt;br&gt;&lt;/span&gt;type=&lt;span style=&quot;color: rgb(136, 132, 111); background-color: rgb(33, 33, 33); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;ucChangePhone4Old&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); font-family: monospace; font-size: 0px; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E9%AA%8C%E8%AF%81%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%26lt%3Bbr%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(255%2C%20255%2C%20255)%3B%20font-family%3A%20Inter%2C%20system-ui%2C%20-apple-system%2C%20BlinkMacSystemFont%2C%20%26amp%3Bquot%3BSegoe%20UI%26amp%3Bquot%3B%2C%20Roboto%2C%20Oxygen%2C%20Ubuntu%2C%20Cantarell%2C%20%26amp%3Bquot%3BFira%20Sans%26amp%3Bquot%3B%2C%20%26amp%3Bquot%3BDroid%20Sans%26amp%3Bquot%3B%2C%20Helvetica%2C%20Arial%2C%20sans-serif%3B%20white-space-collapse%3A%20preserve%3B%20background-color%3A%20rgb(33%2C%2033%2C%2033)%3B%26quot%3B%26gt%3B%2Fapi%2Fotp%2Fsms%2Fverify%26lt%3Bbr%2F%26gt%3B%26lt%3B%2Fspan%26gt%3Btype%3Dlogin%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22200%22%20y%3D%22210%22%20width%3D%22140%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="1100" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-71" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="1410" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-73" target="KZMTBjYNqFW8xVNqSlBw-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-73" value="获取新手机短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/otp/sms&lt;br&gt;&lt;/span&gt;type=&lt;span style=&quot;color: rgb(136, 132, 111); background-color: rgb(33, 33, 33); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;ucChangePhone4New&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="1180" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-74" target="KZMTBjYNqFW8xVNqSlBw-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-74" value="验证新手机短信验证码&lt;br&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;/api/otp/sms/verify&lt;br&gt;&lt;/span&gt;type=&lt;span style=&quot;color: rgb(136, 132, 111); background-color: rgb(33, 33, 33); font-family: IBMPlexMono, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;ucChangePhone4New&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); font-family: monospace; font-size: 0px; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E9%AA%8C%E8%AF%81%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%26lt%3Bbr%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(255%2C%20255%2C%20255)%3B%20font-family%3A%20Inter%2C%20system-ui%2C%20-apple-system%2C%20BlinkMacSystemFont%2C%20%26amp%3Bquot%3BSegoe%20UI%26amp%3Bquot%3B%2C%20Roboto%2C%20Oxygen%2C%20Ubuntu%2C%20Cantarell%2C%20%26amp%3Bquot%3BFira%20Sans%26amp%3Bquot%3B%2C%20%26amp%3Bquot%3BDroid%20Sans%26amp%3Bquot%3B%2C%20Helvetica%2C%20Arial%2C%20sans-serif%3B%20white-space-collapse%3A%20preserve%3B%20background-color%3A%20rgb(33%2C%2033%2C%2033)%3B%26quot%3B%26gt%3B%2Fapi%2Fotp%2Fsms%2Fverify%26lt%3Bbr%2F%26gt%3B%26lt%3B%2Fspan%26gt%3Btype%3Dlogin%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22200%22%20y%3D%22210%22%20width%3D%22140%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="1260" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZMTBjYNqFW8xVNqSlBw-77" target="KZMTBjYNqFW8xVNqSlBw-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KZMTBjYNqFW8xVNqSlBw-77" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; white-space-collapse: preserve; background-color: rgb(33, 33, 33);&quot;&gt;更换手机号码&lt;br&gt;/uc/api/self/phone/change&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="438.75" y="1340" width="167.5" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

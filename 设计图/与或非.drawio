@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.1 Chrome/128.0.6613.186 Electron/32.2.6 Safari/537.36" version="25.0.1">
+  <diagram name="第 1 页" id="AUq_TEbG0B_-WEEUIp5a">
+    <mxGraphModel dx="954" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4qXu27LW7yKStkbHt-xD-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="140" y="325" width="280" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-3" value="A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="370" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-4" value="B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-5" value="√" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-6" value="×" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="265" y="444" width="30" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-7" value="√" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="142" y="524" width="280" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-9" value="A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="182" y="569" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-10" value="B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="302" y="569" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-13" value="√" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="265" y="639" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-15" value="×" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="232" y="593" width="30" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-16" value="×" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="352" y="593" width="30" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-17" value="正面选择A和B（使用或运算）：&lt;br&gt;A &lt;font color=&quot;#ff3333&quot;&gt;||&lt;/font&gt; B" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="443" y="370" width="190" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4qXu27LW7yKStkbHt-xD-18" value="反面排除A和B*（使用与运算）：&lt;br&gt;!A &lt;font color=&quot;#ff3333&quot;&gt;&amp;amp;&amp;amp;&lt;/font&gt; !B" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="443" y="569" width="195" height="41" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
